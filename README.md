@@ -1,7 +1,7 @@
 # Pasos para ejecutar un proyecto de TailWind CSS
 1. Instalar las dependencias de Tail Wind, autoprefixer y postcss-cli
     ```sh
-    $ npm install taildwindcss autoprefixer postcss-cli
+    $ npm install tailwindcss autoprefixer postcss-cli
     ```
 2. Inicializar el tailwindcss
     ```sh
@@ -20,7 +20,7 @@
             require('tailwindcss'),
             require('autoprefixer'),
           ]
-    }
+        }
     ```
     
 5. Crear el archivo origin de CSS y el archivo de HTML

@@ -1,0 +1,25 @@
+{
+  "name": "platzifood",
+  "version": "1.0.0",
+  "description": "1. Instalar las dependencias de Tail Wind, autoprefixer y postcss-cli\r     ```sh\r     $ npm install taildwindcss autoprefixer postcss-cli\r     ```\r 2. Inicializar el tailwindcss\r     ```sh\r     $ npx tailwindcss init\r     ```",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltranseunteurbano/LearningTailWindcss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eltranseunteurbano/LearningTailWindcss/issues"
+  },
+  "homepage": "https://github.com/eltranseunteurbano/LearningTailWindcss#readme"
+}
