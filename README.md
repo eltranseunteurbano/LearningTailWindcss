@@ -46,3 +46,11 @@
     ```
 
 8. Correr el navegador con un live-server
+
+# Modificar con estilos las etiquetas
+
+1. Correr el comando npx taildwindcss para poder tener todos los estilos
+
+    ```sh
+        $ npx tailwindcss init tailwincd.config.full.js --full
+    ```
