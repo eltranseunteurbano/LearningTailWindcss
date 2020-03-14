@@ -13946,6 +13946,21 @@ video {
   transition-duration: 1000ms;
 }
 
+.rotate-45{
+  transform: rotate(45deg);
+  transition: all .4s
+}
+
+.zoom{
+  transform: scale(2);
+  transition: all .4s
+}
+
+.hover\:zoom:hover{
+  transform: scale(2);
+  transition: all .4s
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -27268,6 +27283,11 @@ video {
 
   .sm\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .sm\:rotate-45{
+    transform: rotate(45deg);
+    transition: all .4s
   }
 }
 
@@ -40594,6 +40614,11 @@ video {
   .md\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .md\:rotate-45{
+    transform: rotate(45deg);
+    transition: all .4s
+  }
 }
 
 @media (min-width: 1024px) {
@@ -53919,6 +53944,11 @@ video {
   .lg\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .lg\:rotate-45{
+    transform: rotate(45deg);
+    transition: all .4s
+  }
 }
 
 @media (min-width: 1280px) {
@@ -67243,5 +67273,10 @@ video {
 
   .xl\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .xl\:rotate-45{
+    transform: rotate(45deg);
+    transition: all .4s
   }
 }
